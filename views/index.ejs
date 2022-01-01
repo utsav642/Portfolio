@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utsav642...!</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="frame">
+    </div>
+
+    <div id="btns">
+        <!-- <button type="button" class="btn btn-danger" onclick="upperLeft()">
+            <img src="icons/home.png" style="background-color: white; border-radius: 5px;" width="40px" height="auto" />
+        </button> -->
+        <!-- <i href="/" onclick="upperLeft()">
+            <img src="icons/home.png" style="background-color: white; border-radius: 5px;" width="40px" height="auto" />
+        </i> -->
+        <button type="button" class="btn btn-danger" onclick="upperLeft()">UpperLeft</button>
+        <button type="button" class="btn btn-danger" onclick="upperMid()">UpperMid</button>
+        <button type="button" class="btn btn-danger" onclick="upperRight()">UpperRight</button>
+        <button type="button" class="btn btn-danger" onclick="midLeft()">MidLeft</button>
+        <button type="button" class="btn btn-danger" onclick="Center()">Center</button> 
+        <button type="button" class="btn btn-danger" onclick="midRight()">MidRight</button>
+        
+        <button type="button" class="btn btn-danger" onclick="lowerLeft()">LowerLeft</button>
+        <button type="button" class="btn btn-danger" onclick="lowerMid()">LowerMid</button>
+        <button type="button" class="btn btn-danger" onclick="lowerRight()">LowerRight</button>
+    </div>
+
+    <button id="menu">btns</button>
+
+    <div id="upper-left">       
+        <div id="profile">
+            <img src="images/profile.jpg"/>
+
+            <div id="bio">
+                <h2>Utsav Tayde</h2>
+                Information Technology Student.
+            </div>
+        </div>
+
+        <div id="skills">
+            <span>
+                Skills :-
+            </span>
+            <span class="badge bg-warning text-dark gp">Warning</span>
+            <span class="badge bg-warning text-dark gp">Warning</span>
+            <span class="badge bg-warning text-dark gp">Warning</span>
+            <span class="badge bg-warning text-dark gp">Warning</span>
+            <span class="badge bg-warning text-dark gp">Warning</span>
+            <span class="badge bg-warning text-dark gp">Warning</span>
+            <span class="badge bg-warning text-dark gp">Warning</span>
+            <span class="badge bg-warning text-dark gp">Warning</span>
+            <span class="badge bg-warning text-dark gp">Warning</span>
+            
+        </div>
+    </div>  
+    
+    <div id="upper-mid">
+        <h2>
+            <img src="icons/edu4.png" width="60px" height="auto" />
+            Education
+        </h2>
+
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>  
+
+    <div id="upper-right">
+        The array allocated here has indeterminate values, but it can be zero-initialized by just adding an empty
+          parenthesis () , like this: new int[n]() . More generally, for arbitrary item type, this performs a value-initialization.
+    </div>  
+    
+    <div id="mid-left">
+        <form>
+            <h3>Contact Me!</h3>
+            <div class="form-floating">
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                <label for="email">Email address</label>
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="msg" style="height: 200px"></textarea>
+                <label for="msg">Message / Feedback</label>
+            </div>
+            <button type="submit" class="btn btn-success" id="submit-msg" onclick="midRight()">MidRight</button>
+        </form>
+    </div>   
+
+    <div id="lower-left">
+        The array allocated here has indeterminate values, but it can be zero-initialized by just adding an empty
+          parenthesis () , like this: new int[n]() . More generally, for arbitrary item type, this performs a value-initialization.
+    </div>   
+
+    <script src="script/script.js" charset="utf-8"></script>
+</body>
+</html>
